@@ -1,9 +1,22 @@
-Los enlaces al respectivo código y video están en formato txt, ambos tienen un link que lo envían a una carpeta de Drive.
+## Ejecución del proyecto
 
-Si desea ejecutar la aplicación final desde su equipo, necesita instalar las dependencias de Firebase y FlutterFire en su equipo.
+Los enlaces correspondientes al **código fuente** y al **video de demostración** se encuentran en archivos `.txt` dentro del repositorio.
 
-Debe abrir una terminal en la raíz del proyecto y ejecutar "flutter pub get" para instalar todas las dependencias necesarias que están especificadas en el archivo pubspec.yaml.
+Ambos archivos contienen enlaces a sus respectivas carpetas de Google Drive.
 
-Si solamente quiere ver el funcionamiento general, sin que cargue los datos desde la BD, puede cambiar las líneas de código de lib/src/provider/recetas_provider.dart.
+### Requisitos
 
-Solamente descomente las líneas que carga desde el JSON y quite lo relacionado con Firebase, de esta forma podrá ver el funcionamiento también, pero la data cargada en forma local.
+Para ejecutar la aplicación completa en su equipo es necesario tener instalado y configurado:
+
+- Flutter
+- Firebase
+- FlutterFire
+
+Además, el proyecto debe contar con la configuración correspondiente para conectarse a Firebase.
+
+### Instalación de dependencias
+
+Abra una terminal en la carpeta raíz del proyecto y ejecute:
+
+```bash
+flutter pub get
